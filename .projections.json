@@ -1,0 +1,10 @@
+{
+  "lib/*.js": {
+    "alternate": "test/{}-test.js",
+    "type": "source"
+  },
+  "test/*.test.js": {
+    "alternate": "lib/{}.js",
+    "type": "test"
+  }
+}
