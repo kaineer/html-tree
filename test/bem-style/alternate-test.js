@@ -1,9 +1,9 @@
-// test/bem-style/yandex-test.js
+// test/bem-style/alternate-test.js
 
-const {parseClassName} = require('../../lib/bem-style/yandex');
+const {parseClassName} = require('../../lib/bem-style/alternate');
 const {expect} = require('chai');
 
-describe('Yandex parseClassName()', () => {
+describe('Alternate parseClassName()', () => {
   it('should be a function', () => {
     expect(parseClassName).to.be.a('function');
   });
