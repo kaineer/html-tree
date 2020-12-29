@@ -1,6 +1,6 @@
 // test/checks/one-modifier-test.js
 
-const {parseClassName} = require('../../lib/bem-style/alternate');
+const {parseClassName} = require('../../lib/bem-style/two-dashes');
 const {checkOneModifier} = require('../../lib/checks/one-modifier');
 const {expect} = require('chai');
 

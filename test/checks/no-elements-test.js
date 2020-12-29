@@ -1,7 +1,7 @@
 // test/checks/no-elements-test.js
 
 const {checkNoElements} = require('../../lib/checks/no-elements');
-const {parseClassName} = require('../../lib/bem-style/alternate');
+const {parseClassName} = require('../../lib/bem-style/two-dashes');
 const {getAllClassnames} = require('../../lib/getters/all-classnames');
 const {JSDOM} = require('jsdom');
 

@@ -3,7 +3,7 @@
 const {parseClassName} = require('../../lib/bem-style/yandex');
 const {expect} = require('chai');
 
-describe('Alternate parseClassName()', () => {
+describe('Yandex parseClassName()', () => {
   it('should be a function', () => {
     expect(parseClassName).to.be.a('function');
   });

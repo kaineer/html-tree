@@ -1,9 +1,9 @@
-// test/bem-style/alternate-test.js
+// test/bem-style/two-dashes-test.js
 
-const {parseClassName} = require('../../lib/bem-style/alternate');
+const {parseClassName} = require('../../lib/bem-style/two-dashes');
 const {expect} = require('chai');
 
-describe('Alternate parseClassName()', () => {
+describe('Two dashes parseClassName()', () => {
   it('should be a function', () => {
     expect(parseClassName).to.be.a('function');
   });

@@ -1,6 +1,6 @@
 // test/checks/modifier-out-of-element-test.js
 
-const {parseClassName} = require('../../lib/bem-style/alternate');
+const {parseClassName} = require('../../lib/bem-style/two-dashes');
 const {checkModifierOutOfElement} = require('../../lib/checks/modifier-out-of-element');
 
 const {expect} = require('chai');

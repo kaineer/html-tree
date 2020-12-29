@@ -1,7 +1,7 @@
 // test/checks/element-out-of-block-test.js
 
 const {checkElementOutOfBlock} = require('../../lib/checks/element-out-of-block');
-const {parseClassName} = require('../../lib/bem-style/alternate');
+const {parseClassName} = require('../../lib/bem-style/two-dashes');
 
 const {expect} = require('chai');
 
